@@ -6,4 +6,4 @@ permalink: /about/
 
 ### Contact me
 
-hwang89 at gmail.com
+henrytwang at gmail.com
