@@ -10,6 +10,7 @@ Here are my notes from Kyle Simpson’s <a href="https://frontendmasters.com/cou
 ---
 
 **Parallel vs Async**
+
 Parallelism — when multiple processes run exactly at the same time on multiple threads.
 Asynchronicity — our program only runs on a single thread. Only one line running at any given time.
 
@@ -20,6 +21,7 @@ Synchronous AJAX — make a POST and freeze up the page. Apparently the wors
 ---
 
 **Callbacks**
+
 A callback is a continuation — we have a first half (everything outside of our callback happening now) and second half (everything in our callback happening later) of our program. There could be a gap in-between.
 
 Callback hell — usually thought of as pyramid-of-doom-shaped nested callbacks. However, you could pull these callbacks into different functions and the pyramid shape would disappear. Did this style change solve the hellish issue? Not really. The deeper issues:
@@ -115,7 +117,7 @@ What would it look like? One of the dozen ways to set it up: we create an observ
 
 ---
 
-CSP: Concurrency + Channels
+**CSP: Concurrency + Channels**
 
 A channel is like a pipe that has no buffer size. The channel has back pressure — only one message can transfer through the channel at a time and both the producer and consumer must be ready with/for the message, otherwise it will not send.
 
