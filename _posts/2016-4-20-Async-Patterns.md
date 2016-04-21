@@ -3,8 +3,6 @@ layout: post
 title: Async Patterns
 ---
 
-Async Patterns
-
 Here are my notes from Kyle Simpson’s <a href="https://frontendmasters.com/courses/rethinking-async-js/" target="_blank">Learn Asynchronous Patterns course</a>. I've only included a tiny bit of the great code examples he uses, so please check out the course to see the rest.
 
 ---
